@@ -1,10 +1,3 @@
-/*
- * client-cryptodev.c
- * Encrypted TCP/IP communication using sockets
- *
- * Giorgos Bampilis
- */
-
 #include <stdio.h>
 #include <errno.h>
 #include <ctype.h>
@@ -30,8 +23,8 @@
 
 
 unsigned char input_buffer[256];
-unsigned char key[] = "georgebampilis";
-unsigned char iv [] = "kimonidesalexandros";
+unsigned char key[] = "asdf1234";
+unsigned char iv [] = "1234asdf";
 
 
 /* Insist until all of the data has been written */
